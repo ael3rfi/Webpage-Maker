@@ -1,141 +1,231 @@
-# Webpage Maker
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>استبيان تقييم المستشفى</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      direction: rtl;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+    }
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
+    label {
+      font-weight: bold;
+    }
+    .question {
+      margin-bottom: 15px;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
 
-<img align="left" src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=biratdatta&repo=Webpage-Maker&countColorcountColor&countColor=%237B1E7B"/>
-<img align="right" src="https://img.shields.io/github/repo-size/biratdatta/Webpage-Maker?style=for-the-badge&logo=appveyor" alt="GitHub repo size"/>
-
-<img align="right" alt="Webpage-Maker" src="https://socialify.git.ci/biratdatta/Webpage-Maker/image?description=1&descriptionEditable=Cheat%20sheet%20for%20HTML%20and%20CSS!&font=Bitter&forks=1&issues=1&logo=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRkjyiljkv4CXJgBwxBhKn99dR72f0_wYWZ6A%26usqp%3DCAU&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark" />
-
-<p align="center">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt=" forks"/>
-</p>
-
-<hr>
-
-> This repository is for my updates in Github. It is a text base/code tutorial for getting into HTML or a cheat sheet.
-<br>
-
-**Hey  Everyone**,<br> 
-I have a very Easy Project for you to work on. My Repo is about documenting HTML, and CSS, and you can add your tricks to that and get it done after reviewing [Webpage-Maker](https://github.com/biratdatta/Webpage-Maker).
-
-## Let's get started (Cheatsheets):
-- [MySQL Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/MYSQL%20Cheatsheet.md)
-> Covers the basics on MySQL.
-- [NPM Cheatsheat](https://github.com/biratdatta/Webpage-Maker/blob/master/NPM%20Cheat%20Sheet.md)
-> Covers the basics on NPM.
-- [Complete HTML+CSS Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/Complete%20%5BHTML%20%2B%20CSS%5D%20CheatSheet.txt)
-> Covers the HTML+CSS complete package
-- [jQuery Cheatsheet](https://github.com/biratdatta/Webpage-Maker/tree/master/jQuery%20Cheat%20sheet)
-> Covers the basics on jQuery.
-- [Git Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/Git%20CheatSheet/gitCheatSheet.md)
-> Covers the basics on Git.
-- [React-js Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/React%20Js%20Cheatsheet/reactjs_cheatsheet.md)
-> Covers the basics on React-js.
-- [MongoDB Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/Mongodb%20Cheatsheet/mongodb_cheat_sheet.md)
-> MongoDB basics.
-- [Django Cheatsheet](https://github.com/biratdatta/Webpage-Maker/blob/master/django%20cheatsheat.md)
-> Covers the basics on Django framework.
-- [Tailwind CSS Cheat Sheet](https://github.com/Dicky1/Webpage-Maker/blob/tailwind/Tailwind%20CSS.md)
-> Covers the basics on Tailwind CSS
-- [Conda Cheat Sheet](https://github.com/Dicky1/Webpage-Maker/blob/master/conda-cheatsheet.md)
-> Covers the basics on Conda
-
-# ROADMAPS FOR WEB DEVELOPMENT IN ROADMAP.SH  👇
-
-<p align="center">
-    <a href="https://roadmap.sh/">
-<img src="https://i.imgur.com/jy8Mrgg.png" alt=" forks"/>
-</p>
-
-### Various mind maps, which will take you from scratch to a development.
-
-<hr>
-
-## 🛠️ Installation Steps
-
-**1**. [Fork](https://github.com/biratdatta/Webpage-Maker) the project. Click on the <a href="https://github.com/biratdatta/Webpage-Maker/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15" width="15"></a> icon in the top right to get started
-
-
-**2**. Clone the project, you can use the following command:
-
-```bash
-git clone https://github.com/<your-github-username>/Webpage-Maker
-```
-
-**3**. Navigate to the project directory
-
-```bash
-cd Webpage-Maker
-```
-## 🥂 After making a change
-
-**1**. Create a new branch
-
-```bash
-git checkout -b YourBranchName
-```
-
-**2**. Add it to staging area
-
-
-```bash
-git add <path to the file you worked on>
-```
-
-**3**. Commit your changes with
-
-```bash
-git cz
-```
-
-**4**. Push your changes
-
-```bash
-git push
-```
-
-## 👩🏽‍💻 Contributing
-
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are greatly appreciated.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
-
-
-## Want to contribute?
-- Take a look at [`contributing ideas.`](Contributionidea.md).
-- Take a look at [`contributing guidelines`](CONTRIBUTING.md).
-- Refer [GitHub Flow](https://guides.github.com/introduction/flow). 
-
-
-### Hacktoberfest
-For the Hacktoberfest you can raise an issue on what you want to contribute and I will assign it for you. 
-Contact me on:- `Baba Yaga#6991` at Discord
-
-## Code of Conduct
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-
-
-## Contributors
-
-**Thanks goes to these wonderful people ❤️**
-
-
-<br/>
-<div align="center">
-<a href="https://github.com/biratdatta/Webpage-Maker/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=biratdatta/Webpage-Maker&max=100&columns=11" width=97%/>
-</a>
+<div class="logo">
+  <img src="F162D37E-8D06-4F16-8ACA-B79561F45679.jpeg" alt="شعار الهيئة">
 </div>
 
+<h2>هيئة اعتماد المؤسسات الصحية ومراقبتها</h2>
+<h3>استبيان تقييم المستشفيات</h3>
 
+<form id="surveyForm">
+  <label>اسم المستشفى:</label><br>
+  <input type="text" name="hospitalName" required><br><br>
 
-## 🙏🏽 Support
+  <label>تاريخ التقييم:</label><br>
+  <input type="date" name="date" required><br><br>
 
-This project needs a star️ from you. Don't forget to leave a star✨
-Follow my Github for content
-<br>
-<br>
-<hr>
-<h6 align="center">© Webpage Maker 2022 
-<br>
-All Rights Reserved</h6>
+  <label>اسم المقيم:</label><br>
+  <input type="text" name="evaluator" required><br><br>
+
+‎  <!-- الأقسام -->
+  <div class="section active">
+    <h4>القسم الأول: جودة الرعاية والسلامة</h4>
+    <div class="question">1. مدى التزام الفريق الطبي ببروتوكولات السلامة.
+      <select name="q1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">2. سرعة الاستجابة في حالات الطوارئ.
+      <select name="q2"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">3. وضوح إجراءات الإبلاغ عن الأخطاء الطبية.
+      <select name="q3"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">4. فعالية إدارة العدوى داخل الأقسام.
+      <select name="q4"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">5. مدى توفر الأدوية الأساسية بانتظام.
+      <select name="q5"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4>القسم الثاني: كفاءة الكادر الطبي</h4>
+‎    <!-- الأسئلة 6 إلى 10 -->
+    <div class="question">6. مستوى مهارات الأطباء في التشخيص.
+      <select name="q6"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">7. تعاون الفريق الطبي مع بعضه البعض.
+      <select name="q7"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">8. احترام الطاقم الطبي لخصوصية المرضى.
+      <select name="q8"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">9. توفر الأطباء المختصين على مدار 24 ساعة.
+      <select name="q9"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">10. وضوح شرح الإجراءات الطبية للمريض.
+      <select name="q10"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4>القسم الثالث: المرافق والتجهيزات</h4>
+‎    <!-- الأسئلة 11 إلى 15 -->
+    <div class="question">11. نظافة الغرف ومرافق الاستقبال.
+      <select name="q11"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">12. جودة الأجهزة الطبية وتحديثها.
+      <select name="q12"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">13. سهولة الوصول للمرافق.
+      <select name="q13"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">14. توفر تجهيزات لذوي الاحتياجات الخاصة.
+      <select name="q14"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">15. كفاية عدد الأسرة في الأقسام الحرجة.
+      <select name="q15"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4>القسم الرابع: النظافة والتعقيم</h4>
+‎    <!-- الأسئلة 16 إلى 20 -->
+    <div class="question">16. نظافة دورات المياه والممرات.
+      <select name="q16"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">17. التخلص الآمن من النفايات الطبية.
+      <select name="q17"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">18. تعقيم الأدوات قبل الاستخدام.
+      <select name="q18"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">19. خلو البيئة من الروائح الكريهة.
+      <select name="q19"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">20. نظافة أغطية الأسرة والأدوات الشخصية.
+      <select name="q20"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4>القسم الخامس: الخدمات الإدارية</h4>
+‎    <!-- الأسئلة 21 إلى 25 -->
+    <div class="question">21. سرعة إجراءات القبول والاستقبال.
+      <select name="q21"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">22. وضوح سياسات الدفع والتأمين.
+      <select name="q22"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">23. سرعة معالجة الشكاوى والاقتراحات.
+      <select name="q23"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">24. مرونة أوقات الزيارة.
+      <select name="q24"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">25. توفر معلومات عن حقوق المريض.
+      <select name="q25"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4>القسم السادس: الرعاية الشاملة</h4>
+‎    <!-- الأسئلة 26 إلى 30 -->
+    <div class="question">26. دقة التعليمات المقدمة عند الخروج.
+      <select name="q26"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">27. متابعة الحالة بعد الخروج.
+      <select name="q27"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">28. مراعاة الجوانب النفسية للمريض.
+      <select name="q28"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">29. توفر برامج توعية صحية.
+      <select name="q29"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+    <div class="question">30. تقييمك العام لخدمات المستشفى.
+      <select name="q30"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button type="button" onclick="prevSection()">السابقة</button>
+    <button type="button" onclick="nextSection()">التالي</button>
+  </div>
+
+  <br><br>
+  <button type="button" onclick="submitForm()">إرسال</button>
+</form>
+
+<script>
+  let current = 0;
+  const sections = document.querySelectorAll(".section");
+  function showSection(index) {
+    sections.forEach((sec, i) => {
+      sec.classList.toggle("active", i === index);
+    });
+  }
+  function nextSection() {
+    if (current < sections.length - 1) {
+      current++;
+      showSection(current);
+    }
+  }
+  function prevSection() {
+    if (current > 0) {
+      current--;
+      showSection(current);
+    }
+  }
+
+  function submitForm() {
+    const form = document.forms["surveyForm"];
+    const data = {};
+    for (let element of form.elements) {
+      if (element.name) {
+        data[element.name] = element.value;
+      }
+    }
+
+    const worksheet = XLSX.utils.json_to_sheet([data]);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "تقييم المستشفى");
+    XLSX.writeFile(workbook, "hospital_survey_results.xlsx");
+    alert("تم تحميل الملف بنجاح!");
+  }
+</script>
+
+</body>
+</html>
